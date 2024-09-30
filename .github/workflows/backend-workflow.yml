@@ -44,7 +44,7 @@ jobs:
                     google:
                         client-id: ${{ secrets.GOOGLE_ID }}
                         client-secret: ${{ secrets.GOOGLE_KEY }}
-                        redirect-uri: ${{ secrets.GOOGLE_REDIRECT_URL }}
+                        redirect-uri: ${{ secrets.GOOGLE_REDIRECT_URI }}
                         token-uri: https://oauth2.googleapis.com/token
                         user-info-request-uri: https://www.googleapis.com/oauth2/v3/userinfo
                     kakao:
